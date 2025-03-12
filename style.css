@@ -260,6 +260,10 @@ body.dark-mode .logo-dark {
         justify-content: center;
     }
 
+    .bottom-texts {
+        justify-content: center;
+    }
+
     .hero h1 {
         font-size: 3rem;
         margin-bottom: 2rem;
