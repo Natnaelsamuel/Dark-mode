@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-theme="light">
+    <nav class="navbar">
+      <div class="logo-container">
+        <img
+          src="Assets/logo-light.svg"
+          alt="Logo"
+          class="logo logo-light"
+        />
+        <img src="Assets/logo-dark.svg" alt="Logo" class="logo logo-dark" />
+      </div>
+      <ul class="nav-links desktop-nav" id="nav-links">
+        <li><a href="#about">About us</a></li>
+        <li><a href="#product">Product</a></li>
+        <li><a href="#resource">Resource</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <ul class="nav-links mobile-nav" id="nav-links-mobile">
+        <li><a href="#about">About us</a></li>
+        <li><a href="#product">Product</a></li>
+        <li><a href="#resource">Resource</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="dark-mode-toggle" id="dark-mode-toggle" onclick="toggleDarkMode()">
+          <img src="Assets/Sun_fill.svg" alt="sun" id="light-icon" />
+          <img src="Assets/Moon_fill.svg" alt="moon" id="dark-icon" />
+        </li>
+      </ul>
+      <div class="menu-icon" id="menu-icon">☰</div>
+      <div class="close-icon" id="close-icon">✖</div>
+      <div class="dark-mode-toggle desktop-toggle" onclick="toggleDarkMode()">
+        <img src="Assets/Sun_fill.svg" alt="sun" id="light-icon" />
+        <img src="Assets/Moon_fill.svg" alt="moon" id="dark-icon" />
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="left">
+        <p>😎 SIMPLE WAY TO COMMUNICATE</p>
+        <h1>Actions for <br> Accessibility <br> in Design</h1>
+        <p id="secondary">
+          The fastest way to build and deploy websites with reusable components.
+        </p>
+        <div class="buttons">
+          <button class="btn">Get Started</button>
+          <button class="btn secondary">Get Live Demo</button>
+        </div>
+        <div class="bottom-texts">
+          <p><img src="Assets/Done_ring_round_fill.svg" alt="">No credit card required</p>
+          <p><img src="Assets/Done_ring_round_fill.svg" alt="">No software to install</p>
+        </div>
+      </div>
+      <div class="right">
+        <img src="Assets/hero-image-simple-homepage.png" alt="hero" />
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
