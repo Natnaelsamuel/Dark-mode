@@ -242,12 +242,22 @@ body.dark-mode .logo-dark {
 }
 
 @media (max-width: 768px) {
+    body {
+        overflow: scroll;
+    }
+
     .desktop-nav, .desktop-toggle {
         display: none;
     }
 
     .hero {
         flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .buttons {
+        justify-content: center;
     }
 
     .hero h1 {
